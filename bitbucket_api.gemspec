@@ -6,8 +6,8 @@ require 'bitbucket/version'
 Gem::Specification.new do |spec|
   spec.name          = "bitbucket_api"
   spec.version       = Bitbucket::VERSION
-  spec.authors       = ["flowci"]
-  spec.email         = ["flowci@flow.ci"]
+  spec.authors       = ["Will"]
+  spec.email         = ["yh@fir.im"]
 
   spec.summary       = %q{Bitbucket Api}
   spec.description   = %q{Bitbucket Api}
