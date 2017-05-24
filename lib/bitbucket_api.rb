@@ -1,5 +1,5 @@
-require "bitbucket_api/version"
+require "bitbucket/version"
 
-module BitbucketApi
+module Bitbucket
   # Your code goes here...
 end

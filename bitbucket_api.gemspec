@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bitbucket_api/version'
+require 'bitbucket/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bitbucket_api"
-  spec.version       = BitbucketApi::VERSION
+  spec.version       = Bitbucket::VERSION
   spec.authors       = ["flowci"]
   spec.email         = ["flowci@flow.ci"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Bitbucket Api}
+  spec.description   = %q{Bitbucket Api}
+  spec.homepage      = "https://github.com/yunheli/bitbucket_api"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
