@@ -1,5 +1,5 @@
 module Bitbucket
-  class User
+  class User < Base
 
     # access_token
     def initialize(options={})
